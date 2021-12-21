@@ -1,0 +1,128 @@
+body{
+
+    background-color: darkblue;
+}
+@media only screen and (min-width:900px){
+    body{
+    background-color: cornflowerblue;
+
+    }
+}
+
+
+.tabladeposiciones{
+    background-image: url("img/backimagen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  
+.torneo{
+    text-align: center;
+    color:white;
+    margin: 0px;
+    font-size: 40px;
+    padding: 10px;
+   }
+
+
+.table{
+    text-align: center;
+    color: white;
+    margin: -8px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 12px;
+    
+   }
+ 
+  
+   .posiciones{
+    text-align: center;
+    color:white;
+    margin: 0px;
+    font-size: 21px;
+    padding: 10px;
+    padding-top: 37px;
+    padding-bottom: 1px;
+
+ }
+@media (max-width:900px){
+    .flex-container{
+        flex-direction: column;
+        
+    }
+}
+ .flex-container{
+     display: flex;
+     
+     justify-content: space-around;
+    padding-top: 41px;
+    margin-bottom: -48px;
+ }
+ .flex-container div{
+    margin: 11px;
+     border: darkblue;
+     border-collapse: collapse;
+     
+ }
+ .logo2{
+     width: 87px;
+     transition: all 2s ease;
+ }
+ .logo2:hover{
+     transform: scale(1.3,  1.3);
+ }
+   .linea-tabla{
+    padding: 1px;
+    width: 180px;
+    margin: auto;
+    margin-top: 9px;
+    margin-bottom: -28px;
+    background: linear-gradient(
+90deg
+, rgb(222 222 235) 0%, rgb(20 135 191) 35%, rgb(120 142 147) 100%);
+   }
+   table{
+       width: 100%;
+       color: white;
+    padding-top: 42px;
+    margin-top: 43px;
+  
+   }
+   .encabezado{
+       text-align: center;
+    filter: opacity(0.8);
+    background: linear-gradient( 
+90deg
+ , rgb(25 25 62) 0%, rgb(59 133 169) 35%, rgb(7 33 38) 100%);
+   }
+   table,th,td{
+       border-collapse: collapse;
+   }
+.logo{
+    width: 20px;
+    transition: all 2s ease;
+}
+.logo:hover{
+    transform: scale(1.3,1.3);
+}
+tr{
+    border-bottom: 1px solid rgb(63, 63, 173);
+    filter: opacity(0.9);
+    background: linear-gradient(
+        90deg
+        , rgb(3 3 16) 0%, rgb(153 166 175) 35%, rgb(28 30 30) 100%);
+}
+
+.border{
+    color: white;
+    background-color:  linear-gradient(
+        90deg
+        , rgb(3 3 16) 0%, rgb(153 166 175) 35%, rgb(28 30 30) 100%);
+;
+font-size: 100%;
+}
+tr :hover{
+    color: rgb(53, 13, 13);
+}
